@@ -8,4 +8,4 @@ def tabla_mutply(n):
                 file.write(mutiply)
     return
 
-tabla_mutply(5)
+tabla_mutply(7)
