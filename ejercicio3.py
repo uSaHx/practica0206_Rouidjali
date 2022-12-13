@@ -6,7 +6,7 @@ def busca_num(n, m):
            with open("C:\datos\Documents\GIT_Oussama\practica0206_Rouidjali/" + nombre_archivo, "r") as file:
               mutilplies = file.readlines()
               for x in mutilplies:
-                  if str(m in x:
+                  if str(m) in x:
                       print(x)
         else:
             print("El archivo no existe")

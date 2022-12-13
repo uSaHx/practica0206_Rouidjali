@@ -4,6 +4,8 @@ def leer_tabla(n):
         nombre_archivo = "tabla-" + str(n) + ".txt"
         if os.path.isfile("C:\datos\Documents\GIT_Oussama\practica0206_Rouidjali/" + nombre_archivo):
             print("El archivo existe")
+            file = open("C:\datos\Documents\GIT_Oussama\practica0206_Rouidjali/" + nombre_archivo, "r")
+            print(file.read())
         else:
             print("El archivo no existe")
     return
